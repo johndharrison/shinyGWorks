@@ -1,0 +1,13 @@
+Package: shinyGWorks
+Type: Package
+Title: A wrapper for GroundWorksCSS2
+Version: 0.0.1
+Date: 2014-05-27
+Authors@R: "John Harrison <johndharrison0@gmail.com> [aut, cre]"
+Description: shinyGWorks is an R wrapper for GroundWorksCSS2; a Responsive
+    HTML5, CSS and Javascript Framework
+License: AGPL-3
+URL: http://johndharrison.github.io/shinyGWorks
+BugReports: http://github.com/johndharrison/shinyGWorks/issues
+Depends:
+    shiny
