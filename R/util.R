@@ -11,12 +11,15 @@
 
 gwLIBS <- function(...) {
   
-  tagList(singleton(tags$head(
-    tags$link(rel = "stylesheet", type = "text/css", href = "sgw/css/groundwork.css")
-    , tags$script(src = "sgw/js/groundwork.all.js")
-  )
-  ),
-  ...
+  tagList(
+    singleton(tags$head(
+      tags$link(rel = "stylesheet", type = "text/css", href = "sgw/css/shinygroundwork.css")
+      , tags$script(src = "sgw/js/libs/modernizr-2.6.2.min.js")
+    )),
+    ... ,
+    singleton(tags$body(
+      tags$script(src = "sgw/js/groundwork.all.js")
+    ))
   )
 }
 
