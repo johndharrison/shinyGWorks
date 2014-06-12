@@ -6,10 +6,12 @@
 \usage{
 gwfluidPage(...)
 
-gwfluidRow(...)
+gwfluidRow(..., class = NULL)
 }
 \arguments{
 \item{...}{Elements to include within the page}
+
+\item{class}{additional class definitions to add.}
 }
 \description{
 Add detail here
