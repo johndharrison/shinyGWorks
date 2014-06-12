@@ -8,7 +8,7 @@ shinyGWorks
 If necessary (`install.packages("devtools")`) and run:
 
 ```
-devtools::install_github("RSelenium", "johndharrison")
+devtools::install_github("shinyGWorks", "johndharrison")
 ```
 
 ### Examples
